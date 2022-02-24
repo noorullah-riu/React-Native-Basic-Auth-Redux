@@ -1,8 +1,8 @@
 {
   "expo": {
-    "name": "my-app-demo",
-    "slug": "my-app-demo",
-    "version": "1.0.0",
+    "name": "StylingBuks",
+    "slug": "my-project",
+    "version": "1.7.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
@@ -17,13 +17,12 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "bundleIdentifier": "com.linnear.StylingBuks",
+      "buildNumber": "1.0.0"
     },
     "android": {
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
-      }
+      "package": "com.linnear.StylingBuks",
+      "versionCode": 7
     },
     "web": {
       "favicon": "./assets/favicon.png"
